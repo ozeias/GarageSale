@@ -13,7 +13,7 @@ html
       link(rel="stylesheet",type="text/css",href="/style/css/ie8.css")
     //if IE 9
       link(rel="stylesheet",type="text/css",href="/style/css/ie9.css")
-    link(rel="shortcut icon", type="image/x-icon", href="/style/images/favicon.png")
+    link(rel="shortcut icon", type="image/x-icon", href="/images/favicon.png")
     script(language='javascript', type='text/javascript', src='https://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js')
     script(language='javascript', type='text/javascript', src='http://ajax.microsoft.com/ajax/jquery.validate/1.5.5/jquery.validate.min.js')
     script(language='javascript', type='text/javascript', src='/style/js/ddsmoothmenu.js')
@@ -37,25 +37,46 @@ html
           li
             a(href="/") Home
           li
-            a(href="/info") More Info
+            a(href="/info") Informações
           li
-            a(href="/about") About this site
+            a(href="/about") Sobre o Site
           li
             a(href="/admin") Admin
 
       .social
+        p Kátia Vilelva
         ul
           li
-            a(href="http://diotalevi.com")
+            a(href="http://chillipink.com.br")
               img(src="/style/images/icon-rss.png")
           li
-            a(href="http://twitter.com/fdiotalevi")
+            a(href="http://twitter.com/katiavilelva", title="Kátia Vilelva")
               img(src="/style/images/icon-tw.png")
           li
-            a(href="http://www.linkedin.com/in/fdiotalevi")
+            a(href="http://www.facebook.com/katiavilelva")
+              img(src="/images/facebook.png")
+
+      .social(style='margin: 10px 20px 0 0')
+        p Ozéias Sant'ana
+        ul
+          li
+            a(href="http://railsbox.org")
+              img(src="/style/images/icon-rss.png")
+          li
+            a(href="http://twitter.com/ozeias", title="Ozéias Sant'ana")
+              img(src="/style/images/icon-tw.png")
+          li
+            a(href="http://www.linkedin.com/in/ozeias")
               img(src="/images/linkedin.gif")
-        #footer &copy; 2011
-          a(href='http://knokode.com') Knokode Ltd
+          li
+            a(href="http://www.facebook.com/ozeias")
+              img(src="/images/facebook.png")
+        #footer
+          span &copy; 2012&nbsp;
+            a(href='http://railsbox.org') Railsbox
+          br
+          span Forked from&nbsp;
+            a(href='http://knokode.com/') Knokode Ltd
 
     #container
       #content
