@@ -9,9 +9,9 @@
     "node": "*"
   },
   "dependencies": {
-	"express": "2.2.0",
-	"jade": "0.10.3",
-	"mongodb": "0.9.3",
-	"mongoskin": "0.1.1"	
+	"express": "2.5.6",
+	"jade": "0.20.0",
+	"mongodb": "0.9.7-3-5",
+	"mongoskin": "0.2.3"
    }
 }
